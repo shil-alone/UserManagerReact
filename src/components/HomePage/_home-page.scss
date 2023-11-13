@@ -1,0 +1,48 @@
+@use '@carbon/react/scss/spacing' as *;
+
+.landing_page {
+    margin: $spacing-02;
+}
+
+.btnLogout {
+    display: inline;
+}
+
+.table_content {
+    margin-top: 15px;
+}
+
+.delete_icon {
+    margin-left: 30px;
+}
+
+.success_toast {
+    transition: .3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.notification-container {
+    font-size: 14px;
+    top: 2.5rem;
+    right: 1.5rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100
+}
+
+.top-right {
+    top: 12px;
+    right: 12px;
+    transition: transform .6s ease-in-out;
+    animation: toast-in-right .7s;
+}
+
+@keyframes toast-in-right {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
