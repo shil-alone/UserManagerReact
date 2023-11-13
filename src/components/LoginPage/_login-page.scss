@@ -2,6 +2,18 @@
 
 .login_form {
     margin: $spacing-08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_stack {
+    width: 50%;
+}
+
+.signup_stack {
+    width:50%;
 }
 
 .login-wrapper {

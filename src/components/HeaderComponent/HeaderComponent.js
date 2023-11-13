@@ -25,8 +25,8 @@ const HeaderComponent = () => {
         <div>
             {/* header with navigation and global actions */}
             <Theme theme="g100">
-                <Header aria-label="IBM Platform Name">
-                    <HeaderName href="#" prefix="IBM">
+                <Header aria-label="User Manager Platform Name">
+                    <HeaderName href="#" prefix="User Manager">
                         [React App]
                     </HeaderName>
                     <HeaderGlobalBar>

@@ -44,7 +44,7 @@ const SignupPage = () => {
 
     return (
         <Form className="login_form" onSubmit={handleSubmit}>
-            <Stack gap={7}>
+            <Stack className="signup_stack" gap={7}>
                 <h2>SignUp</h2>
                 <SignupInput isSignup={true} errorMessage={errorMessage} user={user} />
                 <Button
